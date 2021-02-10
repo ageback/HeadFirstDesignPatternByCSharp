@@ -19,5 +19,8 @@ namespace HeadFirstDesignPattern.SimUDuck.Ducks
         public void PerformQuack() => quackBehavior.Quack();
 
         public void Swim() => Console.WriteLine("所有鸭子都能浮起来，即使是诱饵鸭！");
+
+        public void SetFlyBehavior(IFlyBehavior fb) => flyBehavior = fb;
+        public void SetQuackBehavior(IQuackBehavior qb) => quackBehavior = qb;
     }
 }

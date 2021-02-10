@@ -2,12 +2,12 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace HeadFirstDesignPattern
+namespace HeadFirstDesignPattern.SimUDuck.Behavious
 {
     /// <summary>
     /// 飞行行为
     /// </summary>
-    interface IFlyBehavior
+    public interface IFlyBehavior
     {
         void Fly();
     }

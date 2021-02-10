@@ -1,4 +1,5 @@
-﻿using System;
+﻿using HeadFirstDesignPattern.SimUDuck.Ducks;
+using System;
 
 namespace HeadFirstDesignPattern
 {
@@ -6,7 +7,10 @@ namespace HeadFirstDesignPattern
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Duck mallard = new MallardDuck();
+            mallard.PerformQuack();
+            mallard.PerformFly();
+            mallard.Display();
         }
     }
 }

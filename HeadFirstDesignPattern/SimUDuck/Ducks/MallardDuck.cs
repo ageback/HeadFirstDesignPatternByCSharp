@@ -1,10 +1,11 @@
-﻿using System;
+﻿using HeadFirstDesignPattern.SimUDuck.Behavious;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace HeadFirstDesignPattern
+namespace HeadFirstDesignPattern.SimUDuck.Ducks
 {
-    class MallardDuck:Duck
+    class MallardDuck : Duck
     {
         public MallardDuck()
         {
@@ -12,7 +13,7 @@ namespace HeadFirstDesignPattern
             flyBehavior = new FlyWithWings();
         }
 
-        public void Display()
+        public override void Display()
         {
             Console.WriteLine("我是一只真正的绿头鸭");
         }

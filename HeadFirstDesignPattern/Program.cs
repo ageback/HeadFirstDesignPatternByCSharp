@@ -2,7 +2,7 @@
 using HeadFirstDesignPattern.SimUDuck.Behavious;
 using System;
 
-namespace HeadFirstDesignPattern
+namespace HeadFirstDesignPattern.SimUDuck
 {
     class Program
     {
